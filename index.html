@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Indica que el idioma principal del documento es inglés -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Configura la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala inicial del viewport para dispositivos móviles -->
+    <title>Ciberseguridad</title> <!-- Título de la página -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Enlace al archivo CSS de Bootstrap -->
+    <style>
+        /* Estilos CSS personalizados */
+        body {
+            background-color: #0f0f0f; /* Color de fondo del cuerpo */
+            color: #00ff00; /* Color del texto */
+            font-family: 'Courier New', Courier, monospace; /* Fuente del texto */
+        }
+        .navbar {
+            background-color: #1a1a1a; /* Color de fondo de la barra de navegación */
+        }
+        .jumbotron {
+            background-color: #0a0a0a; /* Color de fondo del jumbotron */
+            border: 1px solid #00ff00; /* Borde del jumbotron */
+            color: #00ff00; /* Color del texto del jumbotron */
+        }
+        .btn-hacker {
+            background-color: #00ff00; /* Color de fondo del botón */
+            color: #0f0f0f; /* Color del texto del botón */
+            border: 1px solid #00ff00; /* Borde del botón */
+        }
+        .btn-hacker:hover {
+            background-color: #0f0f0f; /* Color de fondo del botón al pasar el ratón */
+            color: #00ff00; /* Color del texto del botón al pasar el ratón */
+            border: 1px solid #00ff00; /* Borde del botón al pasar el ratón */
+        }
+        .footer {
+            background-color: #1a1a1a; /* Color de fondo del pie de página */
+            padding: 20px 0; /* Espaciado interno del pie de página */
+            text-align: center; /* Alineación del texto del pie de página */
+        }
+        .card {
+            margin-bottom: 20px; /* Margen inferior de las tarjetas */
+        }
+        .hero-image {
+            background: url('imagenes/imagen1.jpg') no-repeat center center; /* Fondo de la imagen de héroe */
+            background-size: cover; /* Tamaño de la imagen de héroe */
+            height: 400px; /* Altura de la imagen de héroe */
+            position: relative; /* Posición relativa */
+            color: #00ff00; /* Color del texto de la imagen de héroe */
+        }
+        .hero-text {
+            text-align: center; /* Alineación del texto de la imagen de héroe */
+            position: absolute; /* Posición absoluta */
+            top: 50%; /* Ubicación superior del texto */
+            left: 50%; /* Ubicación izquierda del texto */
+            transform: translate(-50%, -50%); /* Centrar el texto vertical y horizontalmente */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Marca y botón de hamburguesa para navegación en dispositivos móviles -->
+        <a class="navbar-brand" href="index.html">CiberSeguridad</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenido de la barra de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- Lista de elementos de la barra de navegación -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="password.html">Contraseñas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="redes.html">Redes sociales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="malware.html">Malware</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consejos.html">Consejos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="enlaces.html">Enlaces</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de imagen de héroe -->
+    <div class="hero-image">
+        <!-- Contenido de texto sobre la imagen de héroe -->
+        <div class="hero-text">
+            <h1 class="display-4">Bienvenido a CiberSeguridad</h1>
+            <p class="lead">Protege tus datos con nuestros servicios avanzados de seguridad informática.</p>
+            <a class="btn btn-hacker btn-lg" href="enlaces.html" role="button">Descubre Más</a>
+        </div>
+    </div>
+
+    <!-- Sección de enfoque -->
+    <div class="container my-5">
+        <!-- Contenido sobre el enfoque -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Nuestro Enfoque</h2>
+                <p>En CiberSeguridad, no solo ofrecemos servicios especializados para proteger tus sistemas, sino que también proporcionamos información detallada y consejos prácticos para mejorar tu seguridad personal. Nuestro objetivo es educar y empoderar a todos los usuarios para que adopten buenas prácticas de seguridad en sus dispositivos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de características -->
+<div class="container my-5">
+    <!-- Contenido sobre las características -->
+    <div class="row">
+        <!-- Primera tarjeta de características -->
+        <div class="col-md-4 text-center">
+            <!-- Tarjeta con fondo oscuro y texto blanco -->
+            <div class="card bg-dark text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Análisis de Vulnerabilidades</h5>
+                    <!-- Título y descripción del servicio -->
+                    <p class="card-text">Detecta y soluciona fallos de seguridad en tus sistemas.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Segunda tarjeta de características -->
+        <div class="col-md-4 text-center">
+            <!-- Tarjeta con fondo oscuro y texto blanco -->
+            <div class="card bg-dark text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Consultoría de Seguridad</h5>
+                    <!-- Título y descripción del servicio -->
+                    <p class="card-text">Asesoría especializada para proteger tu infraestructura digital.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Tercera tarjeta de características -->
+        <div class="col-md-4 text-center">
+            <!-- Tarjeta con fondo oscuro y texto blanco -->
+            <div class="card bg-dark text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Respuesta a Incidentes</h5>
+                    <!-- Título y descripción del servicio -->
+                    <p class="card-text">Actúa rápidamente ante cualquier brecha de seguridad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de información -->
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Información y Buenas Prácticas</h2>
+            <!-- Título y descripción de la sección -->
+            <p>Nos comprometemos a ofrecer recursos educativos que te ayudarán a mantener tus dispositivos seguros. 
+                Desde tutoriales sobre cómo crear contraseñas seguras hasta guías sobre cómo detectar intentos de phishing, 
+                nuestro objetivo es equiparte con el conocimiento necesario para protegerte en el mundo digital totalmente gratis.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de página -->
+<footer class="footer">
+    <div class="container">
+        <!-- Texto de derechos de autor -->
+        <p class="mb-0">© 2024 CiberSeguridad. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- Scripts de JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
